@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: beta-svc
 spec:
-  type: NodePort
+  type: LoadBalancer
   selector:
     app: nginx
   ports:
